@@ -1,0 +1,1 @@
+# food-scan-ai-privacy
