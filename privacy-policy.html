@@ -40,7 +40,7 @@
 <body>
   <div class="container">
     <h1>Gizlilik Politikası</h1>
-    <p class="subtitle">Food Scan AI · Son güncelleme: 31 Ekim 2026</p>
+    <p class="subtitle">Food Scan AI · Son güncelleme: 5 Kasım 2026</p>
 
     <p>Bu Gizlilik Politikası, 6698 sayılı Kişisel Verilerin Korunması Kanunu ("KVKK") kapsamında Food Scan AI uygulamasının ("Uygulama") kişisel verilerinizi nasıl topladığını, işlediğini, aktardığını ve koruduğunu açıklamaktadır.</p>
 
@@ -92,13 +92,18 @@
           <td>Meşru menfaat (hata ayıklama, hizmet kalitesi)</td>
         </tr>
         <tr>
+          <td>Sağlık verisi (özel nitelikli)</td>
+          <td>Alerjiler, sağlık durumu ve beslenme tercihleri ile eklediğiniz aile profilleri. Bağlı hesaplarda (Apple, Google veya telefon ile), uygulamanın ilk kayıtta sorduğu onayı verdiğinizde, başka bir cihazda giriş yaptığınızda otomatik yüklenmesi amacıyla hesabınıza bağlı olarak saklanır. Onay vermezseniz ve misafir hesaplarda sunucumuza gönderilmez. Reklam veya pazarlama amacıyla kullanılmaz.</td>
+          <td>Açık rıza (KVKK Md. 6)</td>
+        </tr>
+        <tr>
           <td>Pazarlama</td>
           <td>Reklam etkileşim verileri ve reklam tanımlayıcısı (AdMob; kişiselleştirilmiş reklam yalnızca izin verilirse)</td>
           <td>Açık rıza</td>
         </tr>
       </tbody>
     </table>
-    <p><strong>Yalnızca cihazınızda kalan veriler:</strong> alerji filtreleri, sağlık ve aile profilleri ve profil fotoğrafı sunucumuza gönderilmez; uygulama silindiğinde cihazla birlikte silinir.</p>
+    <p><strong>Cihazınızda kalan veriler:</strong> profil fotoğrafı ile misafir hesaplardaki ya da hesaba kaydedilmesine onay verilmemiş sağlık ve aile profilleri sunucumuza gönderilmez. Sağlık ve aile profilleri uygulamada "Çıkış Yap" ile cihazdan silinir. iOS'ta bu veriler cihazın güvenli anahtar deposunda tutulduğundan uygulamayı silmek tek başına silinmelerini garanti etmez; silmek için önce çıkış yapın.</p>
 
     <h2>4. Yurt Dışına Veri Aktarımı</h2>
     <p>KVKK Madde 9 uyarınca aşağıdaki hizmet sağlayıcılara yurt dışında veri aktarımı yapılmaktadır:</p>
@@ -107,7 +112,7 @@
         <tr><th>Hizmet</th><th>Ülke / Bölge</th><th>Amaç</th></tr>
       </thead>
       <tbody>
-        <tr><td>Supabase</td><td>AB (Almanya)</td><td>Veritabanı (hesap, tarama geçmişi, bağlı hesap fotoğraf kopyaları)</td></tr>
+        <tr><td>Supabase</td><td>AB (Almanya)</td><td>Veritabanı (hesap, tarama geçmişi, bağlı hesap fotoğraf kopyaları ve sağlık profilleri)</td></tr>
         <tr><td>Render</td><td>ABD (şirket)</td><td>Sunucu barındırma</td></tr>
         <tr><td>Upstash</td><td>AB</td><td>Önbellek</td></tr>
         <tr><td>Groq</td><td>ABD</td><td>Yapay zeka ile etiket okuma ve analiz</td></tr>
@@ -131,22 +136,24 @@
       <li>Abonelikleri doğrulamak ve tarama haklarını uygulamak</li>
       <li>Ücretsiz tarama hakkının kötüye kullanımını önlemek</li>
       <li>Bildirim göndermek (yalnızca izin verilirse)</li>
+      <li>Onay vermeniz halinde, bağlı hesaplarda sağlık ve aile profillerinizi hesabınıza kaydetmek ve başka cihazda giriş yaptığınızda yüklemek</li>
       <li>Uygulama hatalarını tespit edip gidermek</li>
       <li>Reklam göstermek (kişiselleştirilmiş reklam yalnızca izin verilirse)</li>
     </ul>
 
     <h2>6. Veri Saklama Süreleri</h2>
     <ul>
-      <li><strong>Hesap ve tarama verileri:</strong> Hesap aktif olduğu sürece. Uygulamadaki "Hesabı Sil" ile hesabınız, tarama geçmişiniz ve saklanan fotoğraf kopyalarınız hemen silinir.</li>
+      <li><strong>Hesap ve tarama verileri:</strong> Hesap aktif olduğu sürece. Uygulamadaki "Hesabı Sil" ile hesabınız, tarama geçmişiniz, saklanan fotoğraf kopyalarınız ve sağlık profili yedeğiniz hemen silinir.</li>
       <li><strong>Tam boy tarama fotoğrafı:</strong> Analiz tamamlanınca silinir.</li>
       <li><strong>Fotoğraf kopyası (yalnızca bağlı hesaplar):</strong> İlgili tarama veya hesap silinene kadar; taramayı sildiğinizde fotoğrafı da hemen silinir.</li>
+      <li><strong>Sağlık profili kopyası (yalnızca bağlı hesaplar ve onay verilirse):</strong> Hesap silinene kadar; uygulamadaki "Hesabı Sil" ile hemen silinir. Profilleri uygulamada düzenlediğiniz veya sildiğinizde hesaptaki kopya da güncellenir. Açık rızanızı geri almak ve hesaptaki kopyanın silinmesini istemek için cnkarakaya@icloud.com adresine yazabilirsiniz.</li>
       <li><strong>Misafir tarama hakkı sayacı:</strong> Ücretsiz hakkın yeniden kullanılmasını önlemek için cihaz tanımlayıcısına bağlı tarama sayısı, hesap silindikten sonra da tutulur; ad, e-posta veya içerik içermez.</li>
       <li><strong>Abonelik kayıtları:</strong> Hesap silinene kadar; yasal saklama yükümlülükleri saklıdır.</li>
       <li><strong>Çökme ve hata kayıtları:</strong> En fazla 90 gün.</li>
     </ul>
 
     <h2>7. Veri Güvenliği</h2>
-    <p>Kişisel verileriniz HTTPS/TLS şifrelemesiyle aktarılır. Parola kullanılmaz; giriş Apple veya Google üzerinden yapılır. Uygulama erişimi JWT tabanlı kimlik doğrulama ile korunur. Fotoğraf kopyalarına yalnızca hesap sahibi erişebilir.</p>
+    <p>Kişisel verileriniz HTTPS/TLS şifrelemesiyle aktarılır. Parola kullanılmaz; giriş Apple veya Google üzerinden yapılır. Uygulama erişimi JWT tabanlı kimlik doğrulama ile korunur. Fotoğraf kopyalarına ve sağlık profili yedeğine yalnızca hesap sahibi erişebilir.</p>
 
     <h2>8. Çocukların Gizliliği</h2>
     <p>Uygulama 13 yaş altı bireylere yönelik değildir ve bu kişilerden bilerek kişisel veri toplanmamaktadır.</p>
